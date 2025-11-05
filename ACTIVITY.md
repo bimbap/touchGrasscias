@@ -15,3 +15,4 @@ Continuous telemetry stream.
 - `2025-11-05T18:53:12`: chore(heartbeat): sync repository telemetry state
 - `2025-11-05T20:26:00`: feat(config): support dynamic environment variable overrides
 - `2025-11-05T21:18:05`: perf(io): batch asynchronous filesystem writes
+- `2025-11-05T23:35:56`: ci(actions): tune parallel job execution runners
