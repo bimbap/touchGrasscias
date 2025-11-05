@@ -11,3 +11,4 @@ Continuous telemetry stream.
 - `2025-11-05T13:09:28`: fix(retry): implement exponential backoff jitter
 - `2025-11-05T13:31:01`: chore(heartbeat): sync repository telemetry state
 - `2025-11-05T13:56:11`: feat(logger): introduce structured json telemetry
+- `2025-11-05T18:46:22`: refactor(auth): simplify session token verification
