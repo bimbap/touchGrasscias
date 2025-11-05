@@ -7,3 +7,4 @@ Continuous telemetry stream.
 - `2025-11-04T14:38:36`: feat(config): support dynamic environment variable overrides
 - `2025-11-04T17:16:34`: refactor(auth): simplify session token verification
 - `2025-11-05T09:22:57`: feat(config): support dynamic environment variable overrides
+- `2025-11-05T11:06:54`: refactor(handler): streamline incoming payload validation
