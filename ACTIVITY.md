@@ -16,3 +16,4 @@ Continuous telemetry stream.
 - `2025-11-05T20:26:00`: feat(config): support dynamic environment variable overrides
 - `2025-11-05T21:18:05`: perf(io): batch asynchronous filesystem writes
 - `2025-11-05T23:35:56`: ci(actions): tune parallel job execution runners
+- `2025-11-06T10:16:43`: feat(config): support dynamic environment variable overrides
