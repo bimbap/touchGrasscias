@@ -22,3 +22,4 @@ Continuous telemetry stream.
 - `2025-11-06T19:39:06`: perf(query): index frequent lookup keys
 - `2025-11-06T23:42:49`: style(fmt): harmonize whitespace across source modules
 - `2025-11-07T09:44:35`: refactor(stream): decouple chunk processing pipeline
+- `2025-11-07T10:06:08`: feat(cli): add granular verbosity flags
