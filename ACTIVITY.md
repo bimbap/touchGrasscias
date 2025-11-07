@@ -25,3 +25,4 @@ Continuous telemetry stream.
 - `2025-11-07T10:06:08`: feat(cli): add granular verbosity flags
 - `2025-11-07T20:01:26`: fix(cache): resolve intermittent eviction bug
 - `2025-11-07T20:34:59`: refactor(utils): extract reusable string helpers
+- `2025-11-07T22:43:09`: perf(query): index frequent lookup keys
