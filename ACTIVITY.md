@@ -29,3 +29,4 @@ Continuous telemetry stream.
 - `2025-11-09T09:13:38`: feat(logger): introduce structured json telemetry
 - `2025-11-09T11:19:53`: chore(cleanup): purge obsolete experimental mocks
 - `2025-11-09T12:26:05`: chore(release): bump internal patch milestone version
+- `2025-11-09T20:23:18`: chore(cleanup): purge obsolete experimental mocks
