@@ -27,3 +27,4 @@ Continuous telemetry stream.
 - `2025-11-07T20:34:59`: refactor(utils): extract reusable string helpers
 - `2025-11-07T22:43:09`: perf(query): index frequent lookup keys
 - `2025-11-09T09:13:38`: feat(logger): introduce structured json telemetry
+- `2025-11-09T11:19:53`: chore(cleanup): purge obsolete experimental mocks
