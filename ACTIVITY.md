@@ -32,3 +32,4 @@ Continuous telemetry stream.
 - `2025-11-09T20:23:18`: chore(cleanup): purge obsolete experimental mocks
 - `2025-11-10T09:05:00`: docs(api): clarify parameter constraints in docstrings
 - `2025-11-10T10:19:26`: docs(arch): record state machine transition diagram
+- `2025-11-10T13:10:02`: refactor(stream): decouple chunk processing pipeline
