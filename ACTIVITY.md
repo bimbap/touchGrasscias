@@ -34,3 +34,4 @@ Continuous telemetry stream.
 - `2025-11-10T10:19:26`: docs(arch): record state machine transition diagram
 - `2025-11-10T13:10:02`: refactor(stream): decouple chunk processing pipeline
 - `2025-11-10T21:35:28`: feat(logger): introduce structured json telemetry
+- `2025-11-11T09:43:57`: docs(arch): record state machine transition diagram
