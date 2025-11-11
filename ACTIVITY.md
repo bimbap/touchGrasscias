@@ -39,3 +39,4 @@ Continuous telemetry stream.
 - `2025-11-11T15:02:52`: feat(cli): add granular verbosity flags
 - `2025-11-11T21:18:20`: chore(deps): update runtime dependency matrix
 - `2025-11-11T21:19:08`: feat(metrics): track p99 latency histograms
+- `2025-11-11T22:05:33`: test(regression): verify backwards compatibility matrix
