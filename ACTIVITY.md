@@ -41,3 +41,4 @@ Continuous telemetry stream.
 - `2025-11-11T21:19:08`: feat(metrics): track p99 latency histograms
 - `2025-11-11T22:05:33`: test(regression): verify backwards compatibility matrix
 - `2025-11-13T09:56:10`: ci(actions): tune parallel job execution runners
+- `2025-11-13T11:25:04`: test(core): add edge cases for timestamp validation
