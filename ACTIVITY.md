@@ -47,3 +47,4 @@ Continuous telemetry stream.
 - `2025-11-13T16:44:47`: feat(cli): add granular verbosity flags
 - `2025-11-13T17:02:20`: style(fmt): harmonize whitespace across source modules
 - `2025-11-13T18:17:29`: docs(arch): record state machine transition diagram
+- `2025-11-13T18:44:27`: docs(api): clarify parameter constraints in docstrings
