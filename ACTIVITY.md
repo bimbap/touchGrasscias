@@ -50,3 +50,4 @@ Continuous telemetry stream.
 - `2025-11-13T18:44:27`: docs(api): clarify parameter constraints in docstrings
 - `2025-11-13T21:00:25`: perf(memory): reduce buffer allocation overhead
 - `2025-11-14T10:13:58`: feat(config): support dynamic environment variable overrides
+- `2025-11-14T11:17:41`: fix(parser): handle unexpected nil tokens gracefully
