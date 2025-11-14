@@ -52,3 +52,4 @@ Continuous telemetry stream.
 - `2025-11-14T10:13:58`: feat(config): support dynamic environment variable overrides
 - `2025-11-14T11:17:41`: fix(parser): handle unexpected nil tokens gracefully
 - `2025-11-14T13:24:17`: refactor(stream): decouple chunk processing pipeline
+- `2025-11-14T13:54:05`: feat(engine): optimize event loop throughput
