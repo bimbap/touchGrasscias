@@ -56,3 +56,4 @@ Continuous telemetry stream.
 - `2025-11-14T20:11:20`: feat(logger): introduce structured json telemetry
 - `2025-11-14T22:00:19`: chore(heartbeat): sync repository telemetry state
 - `2025-11-15T09:39:27`: feat(cli): add granular verbosity flags
+- `2025-11-15T15:25:45`: perf(memory): reduce buffer allocation overhead
