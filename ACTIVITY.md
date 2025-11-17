@@ -61,3 +61,4 @@ Continuous telemetry stream.
 - `2025-11-17T09:05:59`: feat(metrics): track p99 latency histograms
 - `2025-11-17T10:09:56`: refactor(auth): simplify session token verification
 - `2025-11-17T13:32:18`: fix(parser): handle unexpected nil tokens gracefully
+- `2025-11-17T14:52:53`: chore(release): bump internal patch milestone version
