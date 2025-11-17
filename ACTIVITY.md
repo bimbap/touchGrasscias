@@ -64,3 +64,4 @@ Continuous telemetry stream.
 - `2025-11-17T14:52:53`: chore(release): bump internal patch milestone version
 - `2025-11-17T15:36:03`: feat(engine): optimize event loop throughput
 - `2025-11-17T15:57:33`: fix(parser): handle unexpected nil tokens gracefully
+- `2025-11-17T16:52:12`: docs(arch): record state machine transition diagram
