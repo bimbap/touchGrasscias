@@ -58,3 +58,4 @@ Continuous telemetry stream.
 - `2025-11-15T09:39:27`: feat(cli): add granular verbosity flags
 - `2025-11-15T15:25:45`: perf(memory): reduce buffer allocation overhead
 - `2025-11-16T11:03:06`: feat(cli): add granular verbosity flags
+- `2025-11-17T09:05:59`: feat(metrics): track p99 latency histograms
