@@ -62,3 +62,4 @@ Continuous telemetry stream.
 - `2025-11-17T10:09:56`: refactor(auth): simplify session token verification
 - `2025-11-17T13:32:18`: fix(parser): handle unexpected nil tokens gracefully
 - `2025-11-17T14:52:53`: chore(release): bump internal patch milestone version
+- `2025-11-17T15:36:03`: feat(engine): optimize event loop throughput
