@@ -76,3 +76,4 @@ Continuous telemetry stream.
 - `2025-11-18T17:39:36`: docs(arch): record state machine transition diagram
 - `2025-11-18T19:08:36`: style(linter): resolve remaining static analysis hints
 - `2025-11-18T23:11:24`: feat(config): support dynamic environment variable overrides
+- `2025-11-18T23:21:01`: feat(cli): add granular verbosity flags
