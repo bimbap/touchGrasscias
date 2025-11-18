@@ -67,3 +67,4 @@ Continuous telemetry stream.
 - `2025-11-17T16:52:12`: docs(arch): record state machine transition diagram
 - `2025-11-17T18:55:53`: docs(api): clarify parameter constraints in docstrings
 - `2025-11-17T23:29:14`: fix(worker): prevent race condition during teardown
+- `2025-11-18T13:50:23`: feat(config): support dynamic environment variable overrides
