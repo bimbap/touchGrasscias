@@ -70,3 +70,4 @@ Continuous telemetry stream.
 - `2025-11-18T13:50:23`: feat(config): support dynamic environment variable overrides
 - `2025-11-18T14:46:51`: test(core): add edge cases for timestamp validation
 - `2025-11-18T17:08:20`: feat(config): support dynamic environment variable overrides
+- `2025-11-18T17:09:44`: chore(release): bump internal patch milestone version
