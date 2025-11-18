@@ -73,3 +73,4 @@ Continuous telemetry stream.
 - `2025-11-18T17:09:44`: chore(release): bump internal patch milestone version
 - `2025-11-18T17:18:05`: feat(engine): optimize event loop throughput
 - `2025-11-18T17:27:51`: perf(query): index frequent lookup keys
+- `2025-11-18T17:39:36`: docs(arch): record state machine transition diagram
