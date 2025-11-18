@@ -68,3 +68,4 @@ Continuous telemetry stream.
 - `2025-11-17T18:55:53`: docs(api): clarify parameter constraints in docstrings
 - `2025-11-17T23:29:14`: fix(worker): prevent race condition during teardown
 - `2025-11-18T13:50:23`: feat(config): support dynamic environment variable overrides
+- `2025-11-18T14:46:51`: test(core): add edge cases for timestamp validation
