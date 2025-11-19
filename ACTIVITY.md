@@ -84,3 +84,4 @@ Continuous telemetry stream.
 - `2025-11-19T14:30:11`: docs(api): clarify parameter constraints in docstrings
 - `2025-11-19T15:21:43`: docs(arch): record state machine transition diagram
 - `2025-11-19T15:38:31`: feat(metrics): track p99 latency histograms
+- `2025-11-19T17:06:34`: test(e2e): expand integration coverage for edge boundaries
