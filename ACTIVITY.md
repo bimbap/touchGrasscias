@@ -81,3 +81,4 @@ Continuous telemetry stream.
 - `2025-11-19T11:16:21`: refactor(utils): extract reusable string helpers
 - `2025-11-19T11:36:54`: feat(cli): add granular verbosity flags
 - `2025-11-19T12:21:52`: feat(cli): add granular verbosity flags
+- `2025-11-19T14:30:11`: docs(api): clarify parameter constraints in docstrings
