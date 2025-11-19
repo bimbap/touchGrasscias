@@ -79,3 +79,4 @@ Continuous telemetry stream.
 - `2025-11-18T23:21:01`: feat(cli): add granular verbosity flags
 - `2025-11-18T23:27:36`: test(regression): verify backwards compatibility matrix
 - `2025-11-19T11:16:21`: refactor(utils): extract reusable string helpers
+- `2025-11-19T11:36:54`: feat(cli): add granular verbosity flags
