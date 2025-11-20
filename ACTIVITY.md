@@ -86,3 +86,4 @@ Continuous telemetry stream.
 - `2025-11-19T15:38:31`: feat(metrics): track p99 latency histograms
 - `2025-11-19T17:06:34`: test(e2e): expand integration coverage for edge boundaries
 - `2025-11-19T18:52:27`: ci(actions): tune parallel job execution runners
+- `2025-11-20T11:43:14`: chore(release): bump internal patch milestone version
