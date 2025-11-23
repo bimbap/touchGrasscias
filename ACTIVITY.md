@@ -97,3 +97,4 @@ Continuous telemetry stream.
 - `2025-11-21T22:04:17`: perf(io): batch asynchronous filesystem writes
 - `2025-11-22T10:03:16`: fix(cache): resolve intermittent eviction bug
 - `2025-11-22T19:48:16`: ci(actions): tune parallel job execution runners
+- `2025-11-23T10:32:39`: refactor(handler): streamline incoming payload validation
