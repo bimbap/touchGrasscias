@@ -99,3 +99,4 @@ Continuous telemetry stream.
 - `2025-11-22T19:48:16`: ci(actions): tune parallel job execution runners
 - `2025-11-23T10:32:39`: refactor(handler): streamline incoming payload validation
 - `2025-11-23T13:58:59`: refactor(handler): streamline incoming payload validation
+- `2025-11-23T16:24:36`: docs(arch): record state machine transition diagram
