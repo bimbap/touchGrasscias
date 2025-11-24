@@ -101,3 +101,4 @@ Continuous telemetry stream.
 - `2025-11-23T13:58:59`: refactor(handler): streamline incoming payload validation
 - `2025-11-23T16:24:36`: docs(arch): record state machine transition diagram
 - `2025-11-23T17:34:25`: feat(engine): optimize event loop throughput
+- `2025-11-24T09:14:15`: docs(api): clarify parameter constraints in docstrings
