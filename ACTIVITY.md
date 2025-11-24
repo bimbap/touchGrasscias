@@ -106,3 +106,4 @@ Continuous telemetry stream.
 - `2025-11-24T12:33:36`: test(regression): verify backwards compatibility matrix
 - `2025-11-24T14:09:02`: feat(config): support dynamic environment variable overrides
 - `2025-11-24T21:57:27`: fix(worker): prevent race condition during teardown
+- `2025-11-24T22:08:34`: fix(cache): resolve intermittent eviction bug
