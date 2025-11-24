@@ -107,3 +107,4 @@ Continuous telemetry stream.
 - `2025-11-24T14:09:02`: feat(config): support dynamic environment variable overrides
 - `2025-11-24T21:57:27`: fix(worker): prevent race condition during teardown
 - `2025-11-24T22:08:34`: fix(cache): resolve intermittent eviction bug
+- `2025-11-24T23:28:07`: docs(api): clarify parameter constraints in docstrings
