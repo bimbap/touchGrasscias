@@ -103,3 +103,4 @@ Continuous telemetry stream.
 - `2025-11-23T17:34:25`: feat(engine): optimize event loop throughput
 - `2025-11-24T09:14:15`: docs(api): clarify parameter constraints in docstrings
 - `2025-11-24T09:30:58`: test(e2e): expand integration coverage for edge boundaries
+- `2025-11-24T12:33:36`: test(regression): verify backwards compatibility matrix
