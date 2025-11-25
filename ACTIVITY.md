@@ -110,3 +110,4 @@ Continuous telemetry stream.
 - `2025-11-24T23:28:07`: docs(api): clarify parameter constraints in docstrings
 - `2025-11-25T11:49:31`: fix(parser): handle unexpected nil tokens gracefully
 - `2025-11-25T12:15:42`: fix(retry): implement exponential backoff jitter
+- `2025-11-25T15:39:35`: fix(worker): prevent race condition during teardown
