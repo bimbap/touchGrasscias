@@ -109,3 +109,4 @@ Continuous telemetry stream.
 - `2025-11-24T22:08:34`: fix(cache): resolve intermittent eviction bug
 - `2025-11-24T23:28:07`: docs(api): clarify parameter constraints in docstrings
 - `2025-11-25T11:49:31`: fix(parser): handle unexpected nil tokens gracefully
+- `2025-11-25T12:15:42`: fix(retry): implement exponential backoff jitter
