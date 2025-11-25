@@ -117,3 +117,4 @@ Continuous telemetry stream.
 - `2025-11-25T18:44:40`: refactor(utils): extract reusable string helpers
 - `2025-11-25T21:33:25`: fix(cache): resolve intermittent eviction bug
 - `2025-11-25T22:14:10`: docs(arch): record state machine transition diagram
+- `2025-11-25T22:36:32`: feat(engine): optimize event loop throughput
