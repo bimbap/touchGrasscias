@@ -120,3 +120,4 @@ Continuous telemetry stream.
 - `2025-11-25T22:36:32`: feat(engine): optimize event loop throughput
 - `2025-11-25T22:51:23`: chore(release): bump internal patch milestone version
 - `2025-11-26T13:40:54`: chore(cleanup): purge obsolete experimental mocks
+- `2025-11-26T18:25:53`: chore(deps): update runtime dependency matrix
