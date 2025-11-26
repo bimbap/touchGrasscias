@@ -123,3 +123,4 @@ Continuous telemetry stream.
 - `2025-11-26T18:25:53`: chore(deps): update runtime dependency matrix
 - `2025-11-26T20:45:32`: test(e2e): expand integration coverage for edge boundaries
 - `2025-11-26T21:49:06`: perf(io): batch asynchronous filesystem writes
+- `2025-11-26T22:43:04`: fix(worker): prevent race condition during teardown
