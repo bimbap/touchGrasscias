@@ -119,3 +119,4 @@ Continuous telemetry stream.
 - `2025-11-25T22:14:10`: docs(arch): record state machine transition diagram
 - `2025-11-25T22:36:32`: feat(engine): optimize event loop throughput
 - `2025-11-25T22:51:23`: chore(release): bump internal patch milestone version
+- `2025-11-26T13:40:54`: chore(cleanup): purge obsolete experimental mocks
