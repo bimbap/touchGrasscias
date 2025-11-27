@@ -125,3 +125,4 @@ Continuous telemetry stream.
 - `2025-11-26T21:49:06`: perf(io): batch asynchronous filesystem writes
 - `2025-11-26T22:43:04`: fix(worker): prevent race condition during teardown
 - `2025-11-27T09:53:17`: perf(io): batch asynchronous filesystem writes
+- `2025-11-27T18:27:54`: chore(cleanup): purge obsolete experimental mocks
