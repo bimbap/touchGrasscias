@@ -137,3 +137,4 @@ Continuous telemetry stream.
 - `2025-11-28T21:25:44`: style(fmt): harmonize whitespace across source modules
 - `2025-11-28T23:10:43`: feat(engine): optimize event loop throughput
 - `2025-11-30T18:16:24`: fix(parser): handle unexpected nil tokens gracefully
+- `2025-12-01T09:04:40`: refactor(auth): simplify session token verification
