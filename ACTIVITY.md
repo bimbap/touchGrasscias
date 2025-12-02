@@ -152,3 +152,4 @@ Continuous telemetry stream.
 - `2025-12-02T13:51:18`: fix(cache): resolve intermittent eviction bug
 - `2025-12-02T14:36:26`: feat(cli): add granular verbosity flags
 - `2025-12-02T15:19:03`: refactor(stream): decouple chunk processing pipeline
+- `2025-12-02T16:31:04`: fix(parser): handle unexpected nil tokens gracefully
