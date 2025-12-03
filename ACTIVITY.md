@@ -158,3 +158,4 @@ Continuous telemetry stream.
 - `2025-12-03T11:55:56`: refactor(handler): streamline incoming payload validation
 - `2025-12-03T13:10:33`: chore(cleanup): purge obsolete experimental mocks
 - `2025-12-03T14:24:25`: fix(retry): implement exponential backoff jitter
+- `2025-12-03T14:37:51`: test(e2e): expand integration coverage for edge boundaries
