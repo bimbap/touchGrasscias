@@ -164,3 +164,4 @@ Continuous telemetry stream.
 - `2025-12-03T19:46:49`: feat(logger): introduce structured json telemetry
 - `2025-12-04T11:33:06`: feat(cli): add granular verbosity flags
 - `2025-12-04T11:53:17`: docs(api): clarify parameter constraints in docstrings
+- `2025-12-04T12:42:01`: perf(io): batch asynchronous filesystem writes
