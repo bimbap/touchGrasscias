@@ -171,3 +171,4 @@ Continuous telemetry stream.
 - `2025-12-04T16:58:46`: perf(memory): reduce buffer allocation overhead
 - `2025-12-04T17:56:49`: refactor(utils): extract reusable string helpers
 - `2025-12-04T20:31:45`: test(core): add edge cases for timestamp validation
+- `2025-12-04T20:35:59`: fix(cache): resolve intermittent eviction bug
