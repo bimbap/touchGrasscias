@@ -167,3 +167,4 @@ Continuous telemetry stream.
 - `2025-12-04T12:42:01`: perf(io): batch asynchronous filesystem writes
 - `2025-12-04T12:49:55`: perf(query): index frequent lookup keys
 - `2025-12-04T15:20:20`: refactor(stream): decouple chunk processing pipeline
+- `2025-12-04T15:54:15`: fix(retry): implement exponential backoff jitter
