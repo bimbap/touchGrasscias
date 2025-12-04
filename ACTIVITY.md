@@ -166,3 +166,4 @@ Continuous telemetry stream.
 - `2025-12-04T11:53:17`: docs(api): clarify parameter constraints in docstrings
 - `2025-12-04T12:42:01`: perf(io): batch asynchronous filesystem writes
 - `2025-12-04T12:49:55`: perf(query): index frequent lookup keys
+- `2025-12-04T15:20:20`: refactor(stream): decouple chunk processing pipeline
