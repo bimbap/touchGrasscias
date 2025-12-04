@@ -169,3 +169,4 @@ Continuous telemetry stream.
 - `2025-12-04T15:20:20`: refactor(stream): decouple chunk processing pipeline
 - `2025-12-04T15:54:15`: fix(retry): implement exponential backoff jitter
 - `2025-12-04T16:58:46`: perf(memory): reduce buffer allocation overhead
+- `2025-12-04T17:56:49`: refactor(utils): extract reusable string helpers
