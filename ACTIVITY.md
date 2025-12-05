@@ -177,3 +177,4 @@ Continuous telemetry stream.
 - `2025-12-05T14:47:32`: chore(cleanup): purge obsolete experimental mocks
 - `2025-12-05T14:49:37`: chore(release): bump internal patch milestone version
 - `2025-12-05T18:23:24`: feat(config): support dynamic environment variable overrides
+- `2025-12-05T21:09:49`: docs(api): clarify parameter constraints in docstrings
