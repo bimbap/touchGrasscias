@@ -175,3 +175,4 @@ Continuous telemetry stream.
 - `2025-12-04T22:11:13`: fix(retry): implement exponential backoff jitter
 - `2025-12-05T10:33:43`: docs(arch): record state machine transition diagram
 - `2025-12-05T14:47:32`: chore(cleanup): purge obsolete experimental mocks
+- `2025-12-05T14:49:37`: chore(release): bump internal patch milestone version
