@@ -180,3 +180,4 @@ Continuous telemetry stream.
 - `2025-12-05T21:09:49`: docs(api): clarify parameter constraints in docstrings
 - `2025-12-05T21:32:56`: refactor(utils): extract reusable string helpers
 - `2025-12-06T17:09:08`: docs(arch): record state machine transition diagram
+- `2025-12-06T18:14:35`: refactor(utils): extract reusable string helpers
