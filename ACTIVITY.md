@@ -192,3 +192,4 @@ Continuous telemetry stream.
 - `2025-12-08T18:19:49`: fix(retry): implement exponential backoff jitter
 - `2025-12-08T19:22:14`: perf(io): batch asynchronous filesystem writes
 - `2025-12-08T19:23:42`: fix(retry): implement exponential backoff jitter
+- `2025-12-08T19:34:07`: feat(logger): introduce structured json telemetry
