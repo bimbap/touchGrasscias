@@ -188,3 +188,4 @@ Continuous telemetry stream.
 - `2025-12-07T20:35:09`: perf(memory): reduce buffer allocation overhead
 - `2025-12-08T09:10:13`: test(e2e): expand integration coverage for edge boundaries
 - `2025-12-08T10:04:06`: style(fmt): harmonize whitespace across source modules
+- `2025-12-08T17:13:18`: refactor(stream): decouple chunk processing pipeline
