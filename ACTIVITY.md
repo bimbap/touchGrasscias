@@ -189,3 +189,4 @@ Continuous telemetry stream.
 - `2025-12-08T09:10:13`: test(e2e): expand integration coverage for edge boundaries
 - `2025-12-08T10:04:06`: style(fmt): harmonize whitespace across source modules
 - `2025-12-08T17:13:18`: refactor(stream): decouple chunk processing pipeline
+- `2025-12-08T18:19:49`: fix(retry): implement exponential backoff jitter
