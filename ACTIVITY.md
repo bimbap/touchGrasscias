@@ -198,3 +198,4 @@ Continuous telemetry stream.
 - `2025-12-09T09:14:13`: test(regression): verify backwards compatibility matrix
 - `2025-12-09T09:55:13`: docs(arch): record state machine transition diagram
 - `2025-12-09T12:10:28`: feat(engine): optimize event loop throughput
+- `2025-12-09T13:24:27`: fix(cache): resolve intermittent eviction bug
