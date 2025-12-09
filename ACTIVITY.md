@@ -195,3 +195,4 @@ Continuous telemetry stream.
 - `2025-12-08T19:34:07`: feat(logger): introduce structured json telemetry
 - `2025-12-08T20:37:06`: fix(cache): resolve intermittent eviction bug
 - `2025-12-08T21:27:06`: perf(query): index frequent lookup keys
+- `2025-12-09T09:14:13`: test(regression): verify backwards compatibility matrix
