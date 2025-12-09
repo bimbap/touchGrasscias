@@ -204,3 +204,4 @@ Continuous telemetry stream.
 - `2025-12-09T16:13:15`: fix(parser): handle unexpected nil tokens gracefully
 - `2025-12-09T17:33:24`: fix(retry): implement exponential backoff jitter
 - `2025-12-09T18:00:01`: chore(deps): update runtime dependency matrix
+- `2025-12-09T20:00:46`: perf(io): batch asynchronous filesystem writes
