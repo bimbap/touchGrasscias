@@ -202,3 +202,4 @@ Continuous telemetry stream.
 - `2025-12-09T14:43:29`: ci(actions): tune parallel job execution runners
 - `2025-12-09T15:59:38`: perf(io): batch asynchronous filesystem writes
 - `2025-12-09T16:13:15`: fix(parser): handle unexpected nil tokens gracefully
+- `2025-12-09T17:33:24`: fix(retry): implement exponential backoff jitter
