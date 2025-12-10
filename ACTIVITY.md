@@ -206,3 +206,4 @@ Continuous telemetry stream.
 - `2025-12-09T18:00:01`: chore(deps): update runtime dependency matrix
 - `2025-12-09T20:00:46`: perf(io): batch asynchronous filesystem writes
 - `2025-12-10T12:33:10`: feat(engine): optimize event loop throughput
+- `2025-12-10T12:48:01`: fix(retry): implement exponential backoff jitter
