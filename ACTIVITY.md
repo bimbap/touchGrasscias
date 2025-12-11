@@ -218,3 +218,4 @@ Continuous telemetry stream.
 - `2025-12-11T14:33:04`: perf(query): index frequent lookup keys
 - `2025-12-11T15:35:23`: test(e2e): expand integration coverage for edge boundaries
 - `2025-12-11T16:37:33`: fix(cache): resolve intermittent eviction bug
+- `2025-12-11T18:25:38`: feat(engine): optimize event loop throughput
