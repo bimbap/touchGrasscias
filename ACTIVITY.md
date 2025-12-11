@@ -215,3 +215,4 @@ Continuous telemetry stream.
 - `2025-12-10T18:02:11`: chore(heartbeat): sync repository telemetry state
 - `2025-12-10T22:54:12`: style(linter): resolve remaining static analysis hints
 - `2025-12-11T14:00:24`: chore(deps): update runtime dependency matrix
+- `2025-12-11T14:33:04`: perf(query): index frequent lookup keys
