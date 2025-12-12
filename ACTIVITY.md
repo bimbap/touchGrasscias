@@ -226,3 +226,4 @@ Continuous telemetry stream.
 - `2025-12-12T18:08:21`: feat(logger): introduce structured json telemetry
 - `2025-12-12T18:46:58`: style(fmt): harmonize whitespace across source modules
 - `2025-12-12T19:00:35`: perf(io): batch asynchronous filesystem writes
+- `2025-12-12T19:10:51`: feat(config): support dynamic environment variable overrides
