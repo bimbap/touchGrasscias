@@ -221,3 +221,4 @@ Continuous telemetry stream.
 - `2025-12-11T18:25:38`: feat(engine): optimize event loop throughput
 - `2025-12-11T22:16:19`: chore(release): bump internal patch milestone version
 - `2025-12-12T10:07:35`: style(fmt): harmonize whitespace across source modules
+- `2025-12-12T14:53:28`: fix(cache): resolve intermittent eviction bug
