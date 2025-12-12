@@ -225,3 +225,4 @@ Continuous telemetry stream.
 - `2025-12-12T15:47:27`: feat(cli): add granular verbosity flags
 - `2025-12-12T18:08:21`: feat(logger): introduce structured json telemetry
 - `2025-12-12T18:46:58`: style(fmt): harmonize whitespace across source modules
+- `2025-12-12T19:00:35`: perf(io): batch asynchronous filesystem writes
