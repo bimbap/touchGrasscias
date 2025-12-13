@@ -228,3 +228,4 @@ Continuous telemetry stream.
 - `2025-12-12T19:00:35`: perf(io): batch asynchronous filesystem writes
 - `2025-12-12T19:10:51`: feat(config): support dynamic environment variable overrides
 - `2025-12-12T19:58:00`: fix(retry): implement exponential backoff jitter
+- `2025-12-13T18:21:52`: feat(metrics): track p99 latency histograms
