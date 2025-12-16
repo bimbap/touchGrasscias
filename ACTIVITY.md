@@ -230,3 +230,4 @@ Continuous telemetry stream.
 - `2025-12-12T19:58:00`: fix(retry): implement exponential backoff jitter
 - `2025-12-13T18:21:52`: feat(metrics): track p99 latency histograms
 - `2025-12-16T10:06:10`: perf(query): index frequent lookup keys
+- `2025-12-16T13:39:51`: chore(heartbeat): sync repository telemetry state
