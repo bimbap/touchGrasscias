@@ -234,3 +234,4 @@ Continuous telemetry stream.
 - `2025-12-16T17:14:50`: feat(logger): introduce structured json telemetry
 - `2025-12-16T18:28:26`: test(core): add edge cases for timestamp validation
 - `2025-12-16T19:29:56`: feat(logger): introduce structured json telemetry
+- `2025-12-16T21:48:50`: refactor(stream): decouple chunk processing pipeline
