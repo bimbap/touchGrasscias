@@ -241,3 +241,4 @@ Continuous telemetry stream.
 - `2025-12-17T13:54:48`: refactor(stream): decouple chunk processing pipeline
 - `2025-12-17T14:54:16`: feat(cli): add granular verbosity flags
 - `2025-12-17T18:39:10`: test(e2e): expand integration coverage for edge boundaries
+- `2025-12-17T23:33:47`: chore(deps): update runtime dependency matrix
