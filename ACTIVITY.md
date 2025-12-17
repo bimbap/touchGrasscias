@@ -237,3 +237,4 @@ Continuous telemetry stream.
 - `2025-12-16T21:48:50`: refactor(stream): decouple chunk processing pipeline
 - `2025-12-17T12:09:56`: feat(config): support dynamic environment variable overrides
 - `2025-12-17T12:56:54`: style(fmt): harmonize whitespace across source modules
+- `2025-12-17T13:13:12`: feat(metrics): track p99 latency histograms
