@@ -247,3 +247,4 @@ Continuous telemetry stream.
 - `2025-12-18T16:32:12`: test(e2e): expand integration coverage for edge boundaries
 - `2025-12-18T19:34:48`: chore(release): bump internal patch milestone version
 - `2025-12-18T19:41:35`: chore(release): bump internal patch milestone version
+- `2025-12-18T20:23:39`: chore(cleanup): purge obsolete experimental mocks
