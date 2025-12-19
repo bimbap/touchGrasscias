@@ -251,3 +251,4 @@ Continuous telemetry stream.
 - `2025-12-18T22:43:37`: fix(retry): implement exponential backoff jitter
 - `2025-12-18T23:36:19`: chore(heartbeat): sync repository telemetry state
 - `2025-12-19T10:15:15`: docs(api): clarify parameter constraints in docstrings
+- `2025-12-19T11:22:56`: test(core): add edge cases for timestamp validation
