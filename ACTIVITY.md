@@ -254,3 +254,4 @@ Continuous telemetry stream.
 - `2025-12-19T11:22:56`: test(core): add edge cases for timestamp validation
 - `2025-12-19T12:08:17`: feat(cli): add granular verbosity flags
 - `2025-12-19T12:20:11`: feat(logger): introduce structured json telemetry
+- `2025-12-19T14:31:41`: refactor(utils): extract reusable string helpers
