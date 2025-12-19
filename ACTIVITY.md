@@ -250,3 +250,4 @@ Continuous telemetry stream.
 - `2025-12-18T20:23:39`: chore(cleanup): purge obsolete experimental mocks
 - `2025-12-18T22:43:37`: fix(retry): implement exponential backoff jitter
 - `2025-12-18T23:36:19`: chore(heartbeat): sync repository telemetry state
+- `2025-12-19T10:15:15`: docs(api): clarify parameter constraints in docstrings
