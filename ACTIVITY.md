@@ -253,3 +253,4 @@ Continuous telemetry stream.
 - `2025-12-19T10:15:15`: docs(api): clarify parameter constraints in docstrings
 - `2025-12-19T11:22:56`: test(core): add edge cases for timestamp validation
 - `2025-12-19T12:08:17`: feat(cli): add granular verbosity flags
+- `2025-12-19T12:20:11`: feat(logger): introduce structured json telemetry
