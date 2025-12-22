@@ -260,3 +260,4 @@ Continuous telemetry stream.
 - `2025-12-19T17:59:21`: perf(io): batch asynchronous filesystem writes
 - `2025-12-22T10:42:02`: fix(retry): implement exponential backoff jitter
 - `2025-12-22T12:13:21`: style(linter): resolve remaining static analysis hints
+- `2025-12-22T15:38:57`: docs(api): clarify parameter constraints in docstrings
