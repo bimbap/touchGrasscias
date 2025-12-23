@@ -263,3 +263,4 @@ Continuous telemetry stream.
 - `2025-12-22T15:38:57`: docs(api): clarify parameter constraints in docstrings
 - `2025-12-22T16:04:45`: feat(engine): optimize event loop throughput
 - `2025-12-22T21:57:31`: ci(actions): tune parallel job execution runners
+- `2025-12-23T12:44:26`: perf(query): index frequent lookup keys
