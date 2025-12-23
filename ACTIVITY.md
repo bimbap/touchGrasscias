@@ -266,3 +266,4 @@ Continuous telemetry stream.
 - `2025-12-23T12:44:26`: perf(query): index frequent lookup keys
 - `2025-12-23T12:47:43`: feat(cli): add granular verbosity flags
 - `2025-12-23T15:22:54`: refactor(stream): decouple chunk processing pipeline
+- `2025-12-23T16:18:57`: docs(arch): record state machine transition diagram
