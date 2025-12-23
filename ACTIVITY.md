@@ -265,3 +265,4 @@ Continuous telemetry stream.
 - `2025-12-22T21:57:31`: ci(actions): tune parallel job execution runners
 - `2025-12-23T12:44:26`: perf(query): index frequent lookup keys
 - `2025-12-23T12:47:43`: feat(cli): add granular verbosity flags
+- `2025-12-23T15:22:54`: refactor(stream): decouple chunk processing pipeline
