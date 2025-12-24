@@ -279,3 +279,4 @@ Continuous telemetry stream.
 - `2025-12-24T18:20:35`: refactor(stream): decouple chunk processing pipeline
 - `2025-12-24T19:37:44`: fix(worker): prevent race condition during teardown
 - `2025-12-24T21:45:35`: ci(actions): tune parallel job execution runners
+- `2025-12-24T21:52:19`: docs(api): clarify parameter constraints in docstrings
