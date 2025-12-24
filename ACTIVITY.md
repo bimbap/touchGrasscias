@@ -275,3 +275,4 @@ Continuous telemetry stream.
 - `2025-12-24T13:45:25`: perf(memory): reduce buffer allocation overhead
 - `2025-12-24T15:49:52`: feat(engine): optimize event loop throughput
 - `2025-12-24T16:03:29`: refactor(stream): decouple chunk processing pipeline
+- `2025-12-24T16:46:25`: refactor(utils): extract reusable string helpers
