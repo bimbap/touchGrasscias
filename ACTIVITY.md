@@ -277,3 +277,4 @@ Continuous telemetry stream.
 - `2025-12-24T16:03:29`: refactor(stream): decouple chunk processing pipeline
 - `2025-12-24T16:46:25`: refactor(utils): extract reusable string helpers
 - `2025-12-24T18:20:35`: refactor(stream): decouple chunk processing pipeline
+- `2025-12-24T19:37:44`: fix(worker): prevent race condition during teardown
