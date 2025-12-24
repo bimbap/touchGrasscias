@@ -270,3 +270,4 @@ Continuous telemetry stream.
 - `2025-12-23T19:42:18`: chore(deps): update runtime dependency matrix
 - `2025-12-23T19:50:18`: perf(io): batch asynchronous filesystem writes
 - `2025-12-23T20:12:18`: style(linter): resolve remaining static analysis hints
+- `2025-12-24T10:14:13`: fix(worker): prevent race condition during teardown
