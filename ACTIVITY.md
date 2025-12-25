@@ -283,3 +283,4 @@ Continuous telemetry stream.
 - `2025-12-25T11:53:24`: test(core): add edge cases for timestamp validation
 - `2025-12-25T14:07:56`: test(e2e): expand integration coverage for edge boundaries
 - `2025-12-25T15:11:29`: chore(release): bump internal patch milestone version
+- `2025-12-25T17:37:22`: chore(deps): update runtime dependency matrix
