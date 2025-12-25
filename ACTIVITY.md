@@ -280,3 +280,4 @@ Continuous telemetry stream.
 - `2025-12-24T19:37:44`: fix(worker): prevent race condition during teardown
 - `2025-12-24T21:45:35`: ci(actions): tune parallel job execution runners
 - `2025-12-24T21:52:19`: docs(api): clarify parameter constraints in docstrings
+- `2025-12-25T11:53:24`: test(core): add edge cases for timestamp validation
