@@ -287,3 +287,4 @@ Continuous telemetry stream.
 - `2025-12-25T18:26:12`: chore(release): bump internal patch milestone version
 - `2025-12-25T19:29:58`: refactor(utils): extract reusable string helpers
 - `2025-12-25T20:20:40`: refactor(utils): extract reusable string helpers
+- `2025-12-25T20:53:37`: refactor(auth): simplify session token verification
