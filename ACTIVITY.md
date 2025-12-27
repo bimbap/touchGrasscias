@@ -290,3 +290,4 @@ Continuous telemetry stream.
 - `2025-12-25T20:53:37`: refactor(auth): simplify session token verification
 - `2025-12-25T23:10:41`: feat(cli): add granular verbosity flags
 - `2025-12-27T18:54:43`: test(regression): verify backwards compatibility matrix
+- `2025-12-27T22:07:17`: fix(cache): resolve intermittent eviction bug
