@@ -292,3 +292,4 @@ Continuous telemetry stream.
 - `2025-12-27T18:54:43`: test(regression): verify backwards compatibility matrix
 - `2025-12-27T22:07:17`: fix(cache): resolve intermittent eviction bug
 - `2025-12-28T21:49:21`: ci(actions): tune parallel job execution runners
+- `2025-12-28T22:47:41`: refactor(handler): streamline incoming payload validation
