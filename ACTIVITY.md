@@ -298,3 +298,4 @@ Continuous telemetry stream.
 - `2025-12-29T12:23:22`: style(linter): resolve remaining static analysis hints
 - `2025-12-29T13:22:00`: perf(io): batch asynchronous filesystem writes
 - `2025-12-29T14:41:18`: refactor(utils): extract reusable string helpers
+- `2025-12-29T19:35:10`: feat(logger): introduce structured json telemetry
