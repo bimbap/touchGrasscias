@@ -303,3 +303,4 @@ Continuous telemetry stream.
 - `2025-12-29T22:54:18`: ci(actions): tune parallel job execution runners
 - `2025-12-30T10:30:48`: perf(io): batch asynchronous filesystem writes
 - `2025-12-30T10:39:04`: feat(engine): optimize event loop throughput
+- `2025-12-30T11:03:08`: perf(memory): reduce buffer allocation overhead
