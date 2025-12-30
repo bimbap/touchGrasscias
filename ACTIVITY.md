@@ -304,3 +304,4 @@ Continuous telemetry stream.
 - `2025-12-30T10:30:48`: perf(io): batch asynchronous filesystem writes
 - `2025-12-30T10:39:04`: feat(engine): optimize event loop throughput
 - `2025-12-30T11:03:08`: perf(memory): reduce buffer allocation overhead
+- `2025-12-30T18:17:58`: chore(cleanup): purge obsolete experimental mocks
