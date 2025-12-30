@@ -301,3 +301,4 @@ Continuous telemetry stream.
 - `2025-12-29T19:35:10`: feat(logger): introduce structured json telemetry
 - `2025-12-29T21:56:01`: refactor(stream): decouple chunk processing pipeline
 - `2025-12-29T22:54:18`: ci(actions): tune parallel job execution runners
+- `2025-12-30T10:30:48`: perf(io): batch asynchronous filesystem writes
