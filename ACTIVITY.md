@@ -306,3 +306,4 @@ Continuous telemetry stream.
 - `2025-12-30T11:03:08`: perf(memory): reduce buffer allocation overhead
 - `2025-12-30T18:17:58`: chore(cleanup): purge obsolete experimental mocks
 - `2025-12-31T10:32:12`: feat(engine): optimize event loop throughput
+- `2025-12-31T11:12:53`: refactor(auth): simplify session token verification
