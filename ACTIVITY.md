@@ -308,3 +308,4 @@ Continuous telemetry stream.
 - `2025-12-31T10:32:12`: feat(engine): optimize event loop throughput
 - `2025-12-31T11:12:53`: refactor(auth): simplify session token verification
 - `2025-12-31T13:55:02`: feat(logger): introduce structured json telemetry
+- `2025-12-31T14:38:35`: perf(memory): reduce buffer allocation overhead
