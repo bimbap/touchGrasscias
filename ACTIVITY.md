@@ -312,3 +312,4 @@ Continuous telemetry stream.
 - `2025-12-31T17:48:27`: test(core): add edge cases for timestamp validation
 - `2025-12-31T18:11:07`: style(fmt): harmonize whitespace across source modules
 - `2025-12-31T18:32:43`: fix(retry): implement exponential backoff jitter
+- `2025-12-31T20:36:34`: feat(metrics): track p99 latency histograms
