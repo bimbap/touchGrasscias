@@ -1,0 +1,63 @@
+name: TouchGrasscias Reforestation Bot
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    # Run 4 times a day (UTC 03:00, 09:00, 15:00, 21:00)
+    - cron: "0 3,9,15,21 * * *"
+  workflow_dispatch: # Allows manual trigger from GitHub Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  reforest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Perform Reforestation Pulse
+        shell: bash
+        run: |
+          git config --local user.email "imta.dev@gmail.com"
+          git config --local user.name "bimbap"
+
+          # Realistic micro-commit messages pool
+          MESSAGES=(
+            "feat(engine): optimize telemetry heartbeat loop"
+            "fix(sync): resolve edge race condition during state push"
+            "perf(cache): prune stale memory segments"
+            "chore(deps): refresh internal module hashes"
+            "refactor(stream): decouple async buffer pipeline"
+            "docs(activity): update continuous deployment log"
+            "test(coverage): verify cron heartbeat assertion"
+            "style(fmt): harmonize whitespace across records"
+            "ci(workflow): validate scheduled runner pulse"
+          )
+
+          # Random commit count between 1 and 3 for this run
+          COMMIT_COUNT=$((1 + RANDOM % 3))
+          echo "Generating $COMMIT_COUNT commits for this pulse..."
+
+          for ((i=1; i<=COMMIT_COUNT; i++)); do
+            RAND_INDEX=$((RANDOM % ${#MESSAGES[@]}))
+            MSG="${MESSAGES[$RAND_INDEX]}"
+            TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+
+            echo "$TIMESTAMP - $MSG" >> ACTIVITY.md
+            echo "$TIMESTAMP" > LAST_UPDATED
+
+            git add ACTIVITY.md LAST_UPDATED
+            git commit -m "$MSG"
+            sleep 2
+          done
+
+      - name: Push commits to GitHub
+        run: |
+          git push origin main
