@@ -222,7 +222,7 @@ def main():
     print(f"\n[SUCCESS] Successfully generated {generated} backdated commits in {elapsed:.1f}s!")
     print(f"\nNext Steps:")
     print(f"  1. Review history: git log -n 5 --oneline")
-    print(f"  2. Push to GitHub: git push origin master")
+    print(f"  2. Push to GitHub: git push origin main")
     print(f"  3. Check your GitHub profile graph to see the green reforestation!")
 
 if __name__ == "__main__":
