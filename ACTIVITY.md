@@ -318,3 +318,4 @@ Continuous telemetry stream.
 2026-10-29T11:55:59Z - feat(engine): optimize telemetry heartbeat loop
 2026-10-29T12:13:44Z - style(fmt): harmonize whitespace across records
 2026-10-29T20:06:24Z - refactor(stream): decouple async buffer pipeline
+2026-10-29T20:06:26Z - test(coverage): verify cron heartbeat assertion
