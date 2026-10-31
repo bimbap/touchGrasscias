@@ -329,3 +329,4 @@ Continuous telemetry stream.
 2026-10-30T19:52:40Z - feat(engine): optimize telemetry heartbeat loop
 2026-10-31T00:32:36Z - ci(workflow): validate scheduled runner pulse
 2026-10-31T09:23:46Z - ci(workflow): validate scheduled runner pulse
+2026-10-31T09:23:48Z - perf(cache): prune stale memory segments
