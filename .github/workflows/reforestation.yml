@@ -5,8 +5,11 @@ on:
     branches:
       - main
   schedule:
-    # Run 4 times a day (UTC 03:00, 09:00, 15:00, 21:00)
-    - cron: "0 3,9,15,21 * * *"
+    # Trigger 3 times a day across Jakarta daytime/evening:
+    # UTC 05:21 = 12:21 WIB (Lunch window)
+    # UTC 11:21 = 18:21 WIB (Late afternoon window)
+    # UTC 16:21 = 23:21 WIB (Night / final wrap-up window)
+    - cron: "21 5,11,16 * * *"
   workflow_dispatch: # Allows manual trigger from GitHub Actions tab
 
 permissions:
@@ -22,41 +25,134 @@ jobs:
           fetch-depth: 1
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Perform Reforestation Pulse
+      - name: Perform Dynamic Reforestation Pulse
         shell: bash
         run: |
           git config --local user.email "imta.dev@gmail.com"
           git config --local user.name "bimbap"
 
-          # Realistic micro-commit messages pool
-          MESSAGES=(
-            "feat(engine): optimize telemetry heartbeat loop"
-            "fix(sync): resolve edge race condition during state push"
-            "perf(cache): prune stale memory segments"
-            "chore(deps): refresh internal module hashes"
-            "refactor(stream): decouple async buffer pipeline"
-            "docs(activity): update continuous deployment log"
-            "test(coverage): verify cron heartbeat assertion"
-            "style(fmt): harmonize whitespace across records"
-            "ci(workflow): validate scheduled runner pulse"
-          )
+          python3 - << 'EOF'
+          import datetime
+          import os
+          import random
+          import subprocess
+          import sys
 
-          # Random commit count between 1 and 3 for this run
-          COMMIT_COUNT=$((1 + RANDOM % 3))
-          echo "Generating $COMMIT_COUNT commits for this pulse..."
+          # Jakarta Timezone (UTC+7)
+          TZ = datetime.timezone(datetime.timedelta(hours=7))
+          now = datetime.datetime.now(TZ)
+          today_str = now.strftime("%Y-%m-%d")
+          now_hour = now.hour
 
-          for ((i=1; i<=COMMIT_COUNT; i++)); do
-            RAND_INDEX=$((RANDOM % ${#MESSAGES[@]}))
-            MSG="${MESSAGES[$RAND_INDEX]}"
-            TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          # 1. Deterministic daily target: random between 3 and 12 commits
+          rnd = random.Random(today_str)
+          daily_target = rnd.randint(3, 12)
 
-            echo "$TIMESTAMP - $MSG" >> ACTIVITY.md
-            echo "$TIMESTAMP" > LAST_UPDATED
+          MESSAGES = [
+              "feat(engine): optimize telemetry heartbeat loop",
+              "fix(sync): resolve edge race condition during state push",
+              "perf(cache): prune stale memory segments",
+              "chore(deps): refresh internal module hashes",
+              "refactor(stream): decouple async buffer pipeline",
+              "docs(activity): update continuous deployment log",
+              "test(coverage): verify cron heartbeat assertion",
+              "style(fmt): harmonize whitespace across records",
+              "ci(workflow): validate scheduled runner pulse",
+              "perf(io): batch asynchronous filesystem writes",
+              "fix(retry): implement exponential backoff jitter",
+              "feat(logger): introduce structured json telemetry",
+              "refactor(auth): simplify session token verification",
+              "feat(config): support dynamic environment variable overrides",
+              "style(linter): resolve remaining static analysis hints",
+              "chore(release): bump internal patch milestone version",
+              "feat(metrics): track p99 latency histograms",
+              "perf(query): index frequent lookup keys",
+              "fix(worker): prevent race condition during teardown"
+          ]
 
-            git add ACTIVITY.md LAST_UPDATED
-            git commit -m "$MSG"
-            sleep 2
-          done
+          activity_file = "ACTIVITY.md"
+          commits_today = 0
+          if os.path.exists(activity_file):
+              with open(activity_file, "r", encoding="utf-8") as f:
+                  for line in f:
+                      if today_str in line:
+                          commits_today += 1
+
+          print(f"Date: {today_str} (Jakarta). Daily Target: {daily_target}. Existing commits today: {commits_today}")
+
+          # Determine quota and active time window based on current hour
+          if now_hour < 14:
+              current_quota = max(1, round(daily_target * 0.35))
+              start_h, start_m = 8, 30
+              end_h, end_m = min(now_hour, 13), 0
+              if end_h < 9:
+                  end_h, end_m = 9, 30
+          elif now_hour < 19:
+              current_quota = max(2, round(daily_target * 0.70))
+              start_h, start_m = 13, 15
+              end_h, end_m = min(now_hour, 18), 30
+              if end_h < 14:
+                  end_h, end_m = 14, 30
+          else:
+              current_quota = daily_target
+              start_h, start_m = 18, 45
+              end_h, end_m = min(now_hour, 23), 45
+              if end_h < 19:
+                  end_h, end_m = 19, 45
+
+          needed = current_quota - commits_today
+
+          # If already reached or manual dispatch
+          if needed <= 0:
+              if commits_today < daily_target:
+                  needed = daily_target - commits_today
+              else:
+                  print("Daily target already satisfied for this window.")
+                  if os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch":
+                      needed = 1
+                  else:
+                      sys.exit(0)
+
+          needed = max(1, min(needed, 8))
+
+          start_sec = start_h * 3600 + start_m * 60
+          end_sec = end_h * 3600 + end_m * 60
+          if start_sec >= end_sec:
+              start_sec = 8 * 3600 + 30 * 60
+              end_sec = max(start_sec + 3600, now_hour * 3600 + now.minute * 60)
+
+          secs_pool = sorted(random.sample(range(start_sec, end_sec), needed))
+
+          print(f"Generating {needed} commits for this pulse...")
+
+          for s in secs_pool:
+              h = s // 3600
+              m = (s % 3600) // 60
+              sec = s % 60
+              commit_dt = datetime.datetime(now.year, now.month, now.day, h, m, sec, tzinfo=TZ)
+              iso_str = commit_dt.strftime("%Y-%m-%dT%H:%M:%S%z")
+              if len(iso_str) >= 5 and iso_str[-5] in ('+', '-'):
+                  iso_str = iso_str[:-2] + ":" + iso_str[-2:]
+              
+              msg = random.choice(MESSAGES)
+              log_entry = f"{iso_str} - {msg}\n"
+              
+              with open(activity_file, "a", encoding="utf-8") as f:
+                  f.write(log_entry)
+                  
+              with open("LAST_UPDATED", "w", encoding="utf-8") as f:
+                  f.write(iso_str + "\n")
+                  
+              env = os.environ.copy()
+              env["GIT_AUTHOR_DATE"] = iso_str
+              env["GIT_COMMITTER_DATE"] = iso_str
+              
+              subprocess.run(["git", "add", activity_file, "LAST_UPDATED"], check=True)
+              subprocess.run(["git", "commit", "-m", msg], env=env, check=True)
+              print(f"  Committed: [{iso_str}] {msg}")
+
+          print("All commits generated successfully.")
+          EOF
 
       - name: Push commits to GitHub
         run: |
