@@ -344,3 +344,4 @@ Continuous telemetry stream.
 2026-11-02T00:24:53Z - chore(deps): refresh internal module hashes
 2026-11-02T00:24:55Z - refactor(stream): decouple async buffer pipeline
 2026-11-02T00:24:57Z - feat(engine): optimize telemetry heartbeat loop
+2026-11-02T16:05:03+07:00 - perf(query): index frequent lookup keys
