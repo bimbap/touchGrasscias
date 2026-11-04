@@ -349,3 +349,4 @@ Continuous telemetry stream.
 2026-11-03T18:55:36+07:00 - feat(metrics): track p99 latency histograms
 2026-11-03T19:07:48+07:00 - feat(logger): introduce structured json telemetry
 2026-11-04T08:38:16+07:00 - chore(release): bump internal patch milestone version
+2026-11-04T09:28:04+07:00 - perf(cache): prune stale memory segments
