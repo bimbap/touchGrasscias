@@ -44,9 +44,22 @@ jobs:
           today_str = now.strftime("%Y-%m-%d")
           now_hour = now.hour
 
-          # 1. Deterministic daily target: random between 3 and 12 commits
+          # 1. Deterministic daily target with Random Level Scaling:
+          # Level 1 (Light / Chill): 3-7 commits (Dark Green)
+          # Level 2 (Medium / Regular): 8-14 commits (Medium Green)
+          # Level 3 (High / Productive): 15-22 commits (Bright Green)
+          # Level 4 (Sprint / Beast Mode): 24-34 commits (Neon Deep Green)
           rnd = random.Random(today_str)
-          daily_target = rnd.randint(3, 12)
+          target_level = rnd.choices([1, 2, 3, 4], weights=[20, 35, 25, 20])[0]
+
+          if target_level == 1:
+              daily_target = rnd.randint(3, 7)
+          elif target_level == 2:
+              daily_target = rnd.randint(8, 14)
+          elif target_level == 3:
+              daily_target = rnd.randint(15, 22)
+          else:
+              daily_target = rnd.randint(24, 34)
 
           MESSAGES = [
               "feat(engine): optimize telemetry heartbeat loop",
@@ -78,7 +91,7 @@ jobs:
                       if today_str in line:
                           commits_today += 1
 
-          print(f"Date: {today_str} (Jakarta). Daily Target: {daily_target}. Existing commits today: {commits_today}")
+          print(f"Date: {today_str} (Jakarta). Target Level: {target_level} | Daily Target: {daily_target}. Existing commits today: {commits_today}")
 
           # Determine quota and active time window based on current hour
           if now_hour < 14:
@@ -113,7 +126,7 @@ jobs:
                   else:
                       sys.exit(0)
 
-          needed = max(1, min(needed, 8))
+          needed = max(1, min(needed, 35))
 
           start_sec = start_h * 3600 + start_m * 60
           end_sec = end_h * 3600 + end_m * 60
