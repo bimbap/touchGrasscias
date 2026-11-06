@@ -373,3 +373,4 @@ Continuous telemetry stream.
 2026-11-06T09:03:59+07:00 - ci(workflow): validate scheduled runner pulse
 2026-11-06T09:07:23+07:00 - perf(cache): prune stale memory segments
 2026-11-06T09:10:39+07:00 - perf(cache): prune stale memory segments
+2026-11-06T09:15:15+07:00 - feat(logger): introduce structured json telemetry
