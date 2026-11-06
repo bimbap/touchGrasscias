@@ -359,3 +359,4 @@ Continuous telemetry stream.
 2026-11-05T20:07:05+07:00 - fix(retry): implement exponential backoff jitter
 2026-11-05T20:10:45+07:00 - style(linter): resolve remaining static analysis hints
 2026-11-06T08:44:27+07:00 - test(coverage): verify cron heartbeat assertion
+2026-11-06T08:48:59+07:00 - perf(query): index frequent lookup keys
