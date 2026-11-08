@@ -401,3 +401,4 @@ Continuous telemetry stream.
 2026-11-08T09:23:30+07:00 - style(linter): resolve remaining static analysis hints
 2026-11-08T09:29:36+07:00 - feat(config): support dynamic environment variable overrides
 2026-11-08T13:41:56+07:00 - style(fmt): harmonize whitespace across records
+2026-11-08T13:52:02+07:00 - feat(config): support dynamic environment variable overrides
