@@ -410,3 +410,4 @@ Continuous telemetry stream.
 2026-11-08T17:11:55+07:00 - perf(io): batch asynchronous filesystem writes
 2026-11-08T17:16:11+07:00 - perf(cache): prune stale memory segments
 2026-11-08T17:22:50+07:00 - test(coverage): verify cron heartbeat assertion
+2026-11-08T18:15:59+07:00 - refactor(stream): decouple async buffer pipeline
