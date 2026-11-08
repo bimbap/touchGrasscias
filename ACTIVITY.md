@@ -403,3 +403,4 @@ Continuous telemetry stream.
 2026-11-08T13:41:56+07:00 - style(fmt): harmonize whitespace across records
 2026-11-08T13:52:02+07:00 - feat(config): support dynamic environment variable overrides
 2026-11-08T14:07:05+07:00 - feat(metrics): track p99 latency histograms
+2026-11-08T14:49:32+07:00 - perf(io): batch asynchronous filesystem writes
