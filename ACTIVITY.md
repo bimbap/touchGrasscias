@@ -399,3 +399,4 @@ Continuous telemetry stream.
 2026-11-08T09:15:17+07:00 - fix(retry): implement exponential backoff jitter
 2026-11-08T09:19:17+07:00 - chore(release): bump internal patch milestone version
 2026-11-08T09:23:30+07:00 - style(linter): resolve remaining static analysis hints
+2026-11-08T09:29:36+07:00 - feat(config): support dynamic environment variable overrides
