@@ -392,3 +392,4 @@ Continuous telemetry stream.
 2026-11-07T17:31:53+07:00 - feat(config): support dynamic environment variable overrides
 2026-11-08T08:51:39+07:00 - refactor(auth): simplify session token verification
 2026-11-08T09:02:53+07:00 - style(fmt): harmonize whitespace across records
+2026-11-08T09:03:32+07:00 - fix(worker): prevent race condition during teardown
