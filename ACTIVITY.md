@@ -396,3 +396,4 @@ Continuous telemetry stream.
 2026-11-08T09:08:22+07:00 - feat(metrics): track p99 latency histograms
 2026-11-08T09:08:28+07:00 - refactor(auth): simplify session token verification
 2026-11-08T09:14:12+07:00 - feat(logger): introduce structured json telemetry
+2026-11-08T09:15:17+07:00 - fix(retry): implement exponential backoff jitter
