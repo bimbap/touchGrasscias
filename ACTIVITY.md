@@ -412,3 +412,4 @@ Continuous telemetry stream.
 2026-11-08T17:22:50+07:00 - test(coverage): verify cron heartbeat assertion
 2026-11-08T18:15:59+07:00 - refactor(stream): decouple async buffer pipeline
 2026-11-09T09:06:29+07:00 - perf(query): index frequent lookup keys
+2026-11-09T19:06:36+07:00 - feat(config): support dynamic environment variable overrides
