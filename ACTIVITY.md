@@ -436,3 +436,4 @@ Continuous telemetry stream.
 2026-11-10T20:05:19+07:00 - ci(workflow): validate scheduled runner pulse
 2026-11-10T20:05:35+07:00 - fix(worker): prevent race condition during teardown
 2026-11-10T20:39:59+07:00 - chore(release): bump internal patch milestone version
+2026-11-10T20:40:17+07:00 - feat(config): support dynamic environment variable overrides
