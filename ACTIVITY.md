@@ -429,3 +429,4 @@ Continuous telemetry stream.
 2026-11-10T19:35:37+07:00 - fix(worker): prevent race condition during teardown
 2026-11-10T19:36:39+07:00 - perf(cache): prune stale memory segments
 2026-11-10T19:37:00+07:00 - chore(release): bump internal patch milestone version
+2026-11-10T19:39:59+07:00 - perf(io): batch asynchronous filesystem writes
