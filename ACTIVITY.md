@@ -426,3 +426,4 @@ Continuous telemetry stream.
 2026-11-10T19:09:39+07:00 - chore(deps): refresh internal module hashes
 2026-11-10T19:17:44+07:00 - feat(config): support dynamic environment variable overrides
 2026-11-10T19:26:24+07:00 - feat(config): support dynamic environment variable overrides
+2026-11-10T19:35:37+07:00 - fix(worker): prevent race condition during teardown
