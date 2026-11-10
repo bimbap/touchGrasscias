@@ -421,3 +421,4 @@ Continuous telemetry stream.
 2026-11-10T08:55:21+07:00 - style(linter): resolve remaining static analysis hints
 2026-11-10T09:00:31+07:00 - feat(logger): introduce structured json telemetry
 2026-11-10T09:21:46+07:00 - refactor(auth): simplify session token verification
+2026-11-10T09:24:11+07:00 - feat(engine): optimize telemetry heartbeat loop
