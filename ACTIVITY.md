@@ -443,3 +443,4 @@ Continuous telemetry stream.
 2026-11-11T08:51:15+07:00 - chore(release): bump internal patch milestone version
 2026-11-11T09:10:40+07:00 - perf(query): index frequent lookup keys
 2026-11-11T09:11:10+07:00 - feat(metrics): track p99 latency histograms
+2026-11-11T09:16:11+07:00 - refactor(stream): decouple async buffer pipeline
