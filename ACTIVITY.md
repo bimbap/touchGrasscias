@@ -452,3 +452,4 @@ Continuous telemetry stream.
 2026-11-11T19:02:55+07:00 - docs(activity): update continuous deployment log
 2026-11-11T19:08:20+07:00 - perf(io): batch asynchronous filesystem writes
 2026-11-11T19:10:05+07:00 - feat(config): support dynamic environment variable overrides
+2026-11-11T19:10:12+07:00 - fix(worker): prevent race condition during teardown
