@@ -439,3 +439,4 @@ Continuous telemetry stream.
 2026-11-10T20:40:17+07:00 - feat(config): support dynamic environment variable overrides
 2026-11-10T20:41:02+07:00 - fix(retry): implement exponential backoff jitter
 2026-11-11T08:43:03+07:00 - perf(cache): prune stale memory segments
+2026-11-11T08:47:17+07:00 - refactor(auth): simplify session token verification
