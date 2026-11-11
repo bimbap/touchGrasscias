@@ -445,3 +445,4 @@ Continuous telemetry stream.
 2026-11-11T09:11:10+07:00 - feat(metrics): track p99 latency histograms
 2026-11-11T09:16:11+07:00 - refactor(stream): decouple async buffer pipeline
 2026-11-11T09:17:47+07:00 - refactor(auth): simplify session token verification
+2026-11-11T18:47:06+07:00 - perf(cache): prune stale memory segments
