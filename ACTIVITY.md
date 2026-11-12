@@ -463,3 +463,4 @@ Continuous telemetry stream.
 2026-11-12T09:12:06+07:00 - fix(sync): resolve edge race condition during state push
 2026-11-12T09:25:06+07:00 - test(coverage): verify cron heartbeat assertion
 2026-11-12T19:08:02+07:00 - feat(engine): optimize telemetry heartbeat loop
+2026-11-12T19:21:31+07:00 - feat(logger): introduce structured json telemetry
