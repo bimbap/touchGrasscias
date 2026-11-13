@@ -472,3 +472,4 @@ Continuous telemetry stream.
 2026-11-12T20:25:17+07:00 - chore(release): bump internal patch milestone version
 2026-11-13T08:39:53+07:00 - test(coverage): verify cron heartbeat assertion
 2026-11-13T08:46:07+07:00 - chore(release): bump internal patch milestone version
+2026-11-13T09:00:31+07:00 - feat(engine): optimize telemetry heartbeat loop
