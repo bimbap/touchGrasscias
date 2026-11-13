@@ -478,3 +478,4 @@ Continuous telemetry stream.
 2026-11-13T09:23:08+07:00 - fix(worker): prevent race condition during teardown
 2026-11-13T09:27:03+07:00 - fix(worker): prevent race condition during teardown
 2026-11-13T18:53:04+07:00 - feat(logger): introduce structured json telemetry
+2026-11-13T19:08:45+07:00 - refactor(auth): simplify session token verification
