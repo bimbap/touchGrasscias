@@ -488,3 +488,4 @@ Continuous telemetry stream.
 2026-11-13T20:06:13+07:00 - chore(release): bump internal patch milestone version
 2026-11-13T20:11:44+07:00 - style(linter): resolve remaining static analysis hints
 2026-11-13T20:23:02+07:00 - feat(metrics): track p99 latency histograms
+2026-11-13T20:29:02+07:00 - feat(config): support dynamic environment variable overrides
