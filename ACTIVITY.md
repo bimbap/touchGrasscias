@@ -489,3 +489,4 @@ Continuous telemetry stream.
 2026-11-13T20:11:44+07:00 - style(linter): resolve remaining static analysis hints
 2026-11-13T20:23:02+07:00 - feat(metrics): track p99 latency histograms
 2026-11-13T20:29:02+07:00 - feat(config): support dynamic environment variable overrides
+2026-11-13T20:33:35+07:00 - refactor(auth): simplify session token verification
