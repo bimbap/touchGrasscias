@@ -475,3 +475,4 @@ Continuous telemetry stream.
 2026-11-13T09:00:31+07:00 - feat(engine): optimize telemetry heartbeat loop
 2026-11-13T09:02:08+07:00 - fix(worker): prevent race condition during teardown
 2026-11-13T09:08:00+07:00 - fix(worker): prevent race condition during teardown
+2026-11-13T09:23:08+07:00 - fix(worker): prevent race condition during teardown
