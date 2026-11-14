@@ -496,3 +496,4 @@ Continuous telemetry stream.
 2026-11-14T08:36:44+07:00 - refactor(auth): simplify session token verification
 2026-11-14T08:57:46+07:00 - feat(logger): introduce structured json telemetry
 2026-11-14T09:01:10+07:00 - fix(worker): prevent race condition during teardown
+2026-11-14T09:12:11+07:00 - perf(io): batch asynchronous filesystem writes
