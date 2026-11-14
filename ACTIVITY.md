@@ -493,3 +493,4 @@ Continuous telemetry stream.
 2026-11-13T20:39:28+07:00 - refactor(stream): decouple async buffer pipeline
 2026-11-14T08:30:34+07:00 - feat(logger): introduce structured json telemetry
 2026-11-14T08:31:26+07:00 - feat(metrics): track p99 latency histograms
+2026-11-14T08:36:44+07:00 - refactor(auth): simplify session token verification
