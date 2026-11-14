@@ -503,3 +503,4 @@ Continuous telemetry stream.
 2026-11-14T19:10:38+07:00 - feat(config): support dynamic environment variable overrides
 2026-11-14T19:11:21+07:00 - test(coverage): verify cron heartbeat assertion
 2026-11-14T19:11:53+07:00 - fix(sync): resolve edge race condition during state push
+2026-11-14T19:14:27+07:00 - feat(logger): introduce structured json telemetry
