@@ -491,3 +491,4 @@ Continuous telemetry stream.
 2026-11-13T20:29:02+07:00 - feat(config): support dynamic environment variable overrides
 2026-11-13T20:33:35+07:00 - refactor(auth): simplify session token verification
 2026-11-13T20:39:28+07:00 - refactor(stream): decouple async buffer pipeline
+2026-11-14T08:30:34+07:00 - feat(logger): introduce structured json telemetry
