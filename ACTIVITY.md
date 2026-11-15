@@ -511,3 +511,4 @@ Continuous telemetry stream.
 2026-11-15T08:38:54+07:00 - style(linter): resolve remaining static analysis hints
 2026-11-15T08:42:35+07:00 - fix(sync): resolve edge race condition during state push
 2026-11-15T08:48:11+07:00 - feat(metrics): track p99 latency histograms
+2026-11-15T08:54:59+07:00 - refactor(stream): decouple async buffer pipeline
