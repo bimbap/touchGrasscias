@@ -516,3 +516,4 @@ Continuous telemetry stream.
 2026-11-15T08:57:55+07:00 - feat(config): support dynamic environment variable overrides
 2026-11-15T09:12:30+07:00 - feat(config): support dynamic environment variable overrides
 2026-11-15T09:20:13+07:00 - feat(logger): introduce structured json telemetry
+2026-11-15T09:23:27+07:00 - style(fmt): harmonize whitespace across records
