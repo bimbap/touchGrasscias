@@ -513,3 +513,4 @@ Continuous telemetry stream.
 2026-11-15T08:48:11+07:00 - feat(metrics): track p99 latency histograms
 2026-11-15T08:54:59+07:00 - refactor(stream): decouple async buffer pipeline
 2026-11-15T08:56:09+07:00 - fix(sync): resolve edge race condition during state push
+2026-11-15T08:57:55+07:00 - feat(config): support dynamic environment variable overrides
