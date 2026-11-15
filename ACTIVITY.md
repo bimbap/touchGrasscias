@@ -533,3 +533,4 @@ Continuous telemetry stream.
 2026-11-15T19:09:50+07:00 - feat(config): support dynamic environment variable overrides
 2026-11-15T19:22:48+07:00 - feat(metrics): track p99 latency histograms
 2026-11-15T19:23:43+07:00 - refactor(auth): simplify session token verification
+2026-11-15T19:27:17+07:00 - feat(config): support dynamic environment variable overrides
