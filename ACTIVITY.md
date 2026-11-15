@@ -530,3 +530,4 @@ Continuous telemetry stream.
 2026-11-15T19:04:58+07:00 - feat(metrics): track p99 latency histograms
 2026-11-15T19:06:51+07:00 - ci(workflow): validate scheduled runner pulse
 2026-11-15T19:09:43+07:00 - chore(deps): refresh internal module hashes
+2026-11-15T19:09:50+07:00 - feat(config): support dynamic environment variable overrides
