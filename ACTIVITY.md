@@ -556,3 +556,4 @@ Continuous telemetry stream.
 2026-11-16T19:25:13+07:00 - feat(metrics): track p99 latency histograms
 2026-11-16T19:28:52+07:00 - feat(engine): optimize telemetry heartbeat loop
 2026-11-16T19:39:52+07:00 - feat(config): support dynamic environment variable overrides
+2026-11-16T19:47:40+07:00 - fix(worker): prevent race condition during teardown
