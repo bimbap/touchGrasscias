@@ -552,3 +552,4 @@ Continuous telemetry stream.
 2026-11-16T18:58:40+07:00 - feat(metrics): track p99 latency histograms
 2026-11-16T19:00:02+07:00 - perf(io): batch asynchronous filesystem writes
 2026-11-16T19:07:50+07:00 - refactor(stream): decouple async buffer pipeline
+2026-11-16T19:23:03+07:00 - fix(retry): implement exponential backoff jitter
