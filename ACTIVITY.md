@@ -557,3 +557,4 @@ Continuous telemetry stream.
 2026-11-16T19:28:52+07:00 - feat(engine): optimize telemetry heartbeat loop
 2026-11-16T19:39:52+07:00 - feat(config): support dynamic environment variable overrides
 2026-11-16T19:47:40+07:00 - fix(worker): prevent race condition during teardown
+2026-11-16T19:49:51+07:00 - test(coverage): verify cron heartbeat assertion
