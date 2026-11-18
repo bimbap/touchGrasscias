@@ -611,3 +611,4 @@ Continuous telemetry stream.
 2026-11-18T21:10:52+07:00 - perf(io): batch asynchronous filesystem writes
 2026-11-18T21:18:21+07:00 - fix(sync): resolve edge race condition during state push
 2026-11-18T21:29:35+07:00 - chore(release): bump internal patch milestone version
+2026-11-18T21:33:08+07:00 - feat(config): support dynamic environment variable overrides
