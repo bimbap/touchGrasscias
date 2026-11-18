@@ -598,3 +598,4 @@ Continuous telemetry stream.
 2026-11-18T20:00:23+07:00 - docs(activity): update continuous deployment log
 2026-11-18T20:01:35+07:00 - refactor(stream): decouple async buffer pipeline
 2026-11-18T20:05:39+07:00 - fix(retry): implement exponential backoff jitter
+2026-11-18T20:06:24+07:00 - feat(config): support dynamic environment variable overrides
