@@ -594,3 +594,4 @@ Continuous telemetry stream.
 2026-11-18T19:32:40+07:00 - chore(release): bump internal patch milestone version
 2026-11-18T19:45:19+07:00 - fix(worker): prevent race condition during teardown
 2026-11-18T19:55:38+07:00 - feat(config): support dynamic environment variable overrides
+2026-11-18T19:57:11+07:00 - fix(retry): implement exponential backoff jitter
