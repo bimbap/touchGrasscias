@@ -605,3 +605,4 @@ Continuous telemetry stream.
 2026-11-18T20:21:31+07:00 - perf(cache): prune stale memory segments
 2026-11-18T20:38:41+07:00 - feat(logger): introduce structured json telemetry
 2026-11-18T20:49:44+07:00 - chore(release): bump internal patch milestone version
+2026-11-18T20:57:34+07:00 - perf(query): index frequent lookup keys
