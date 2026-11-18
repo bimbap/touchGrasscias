@@ -593,3 +593,4 @@ Continuous telemetry stream.
 2026-11-18T19:21:29+07:00 - perf(cache): prune stale memory segments
 2026-11-18T19:32:40+07:00 - chore(release): bump internal patch milestone version
 2026-11-18T19:45:19+07:00 - fix(worker): prevent race condition during teardown
+2026-11-18T19:55:38+07:00 - feat(config): support dynamic environment variable overrides
