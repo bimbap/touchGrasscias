@@ -586,3 +586,4 @@ Continuous telemetry stream.
 2026-11-18T09:51:59+07:00 - perf(io): batch asynchronous filesystem writes
 2026-11-18T09:57:36+07:00 - perf(io): batch asynchronous filesystem writes
 2026-11-18T18:50:14+07:00 - refactor(auth): simplify session token verification
+2026-11-18T18:54:37+07:00 - perf(query): index frequent lookup keys
