@@ -602,3 +602,4 @@ Continuous telemetry stream.
 2026-11-18T20:07:10+07:00 - perf(io): batch asynchronous filesystem writes
 2026-11-18T20:17:17+07:00 - fix(worker): prevent race condition during teardown
 2026-11-18T20:18:25+07:00 - fix(sync): resolve edge race condition during state push
+2026-11-18T20:21:31+07:00 - perf(cache): prune stale memory segments
