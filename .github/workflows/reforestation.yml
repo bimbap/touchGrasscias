@@ -44,22 +44,23 @@ jobs:
           today_str = now.strftime("%Y-%m-%d")
           now_hour = now.hour
 
-          # 1. Deterministic daily target with Random Level Scaling:
-          # Level 1 (Light / Chill): 3-7 commits (Dark Green)
-          # Level 2 (Medium / Regular): 8-14 commits (Medium Green)
-          # Level 3 (High / Productive): 15-22 commits (Bright Green)
-          # Level 4 (Sprint / Beast Mode): 24-34 commits (Neon Deep Green)
+          # 1. Deterministic daily target with High-Intensity Biased Level Scaling:
+          # Level 1 (Light / Chill): 3-7 commits (Dark Green) - 5% weight
+          # Level 2 (Medium / Regular): 8-15 commits (Medium Green) - 15% weight
+          # Level 3 (High / Productive): 18-28 commits (Bright Green) - 45% weight
+          # Level 4 (Mentok / Beast Mode): 32-52 commits (Neon Deep Green) - 35% weight
+          # Result: ~80% of days are Level 3 & Level 4!
           rnd = random.Random(today_str)
-          target_level = rnd.choices([1, 2, 3, 4], weights=[20, 35, 25, 20])[0]
+          target_level = rnd.choices([1, 2, 3, 4], weights=[5, 15, 45, 35])[0]
 
           if target_level == 1:
               daily_target = rnd.randint(3, 7)
           elif target_level == 2:
-              daily_target = rnd.randint(8, 14)
+              daily_target = rnd.randint(8, 15)
           elif target_level == 3:
-              daily_target = rnd.randint(15, 22)
+              daily_target = rnd.randint(18, 28)
           else:
-              daily_target = rnd.randint(24, 34)
+              daily_target = rnd.randint(32, 52)
 
           MESSAGES = [
               "feat(engine): optimize telemetry heartbeat loop",
@@ -126,7 +127,7 @@ jobs:
                   else:
                       sys.exit(0)
 
-          needed = max(1, min(needed, 35))
+          needed = max(1, min(needed, 55))
 
           start_sec = start_h * 3600 + start_m * 60
           end_sec = end_h * 3600 + end_m * 60
