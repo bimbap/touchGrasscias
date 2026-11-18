@@ -572,3 +572,4 @@ Continuous telemetry stream.
 2026-11-17T21:33:51+07:00 - perf(query): index frequent lookup keys
 2026-11-18T08:32:16+07:00 - ci(workflow): validate scheduled runner pulse
 2026-11-18T08:39:38+07:00 - chore(deps): refresh internal module hashes
+2026-11-18T08:51:39+07:00 - refactor(auth): simplify session token verification
