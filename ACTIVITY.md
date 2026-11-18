@@ -599,3 +599,4 @@ Continuous telemetry stream.
 2026-11-18T20:01:35+07:00 - refactor(stream): decouple async buffer pipeline
 2026-11-18T20:05:39+07:00 - fix(retry): implement exponential backoff jitter
 2026-11-18T20:06:24+07:00 - feat(config): support dynamic environment variable overrides
+2026-11-18T20:07:10+07:00 - perf(io): batch asynchronous filesystem writes
