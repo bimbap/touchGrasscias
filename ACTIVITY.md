@@ -606,3 +606,4 @@ Continuous telemetry stream.
 2026-11-18T20:38:41+07:00 - feat(logger): introduce structured json telemetry
 2026-11-18T20:49:44+07:00 - chore(release): bump internal patch milestone version
 2026-11-18T20:57:34+07:00 - perf(query): index frequent lookup keys
+2026-11-18T21:02:37+07:00 - refactor(auth): simplify session token verification
