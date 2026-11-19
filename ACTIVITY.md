@@ -630,3 +630,4 @@ Continuous telemetry stream.
 2026-11-19T19:46:06+07:00 - feat(engine): optimize telemetry heartbeat loop
 2026-11-19T19:52:47+07:00 - style(fmt): harmonize whitespace across records
 2026-11-19T19:58:53+07:00 - perf(query): index frequent lookup keys
+2026-11-19T20:12:20+07:00 - refactor(stream): decouple async buffer pipeline
