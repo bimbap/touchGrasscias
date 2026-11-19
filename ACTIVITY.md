@@ -637,3 +637,4 @@ Continuous telemetry stream.
 2026-11-19T20:52:15+07:00 - style(linter): resolve remaining static analysis hints
 2026-11-19T20:53:02+07:00 - feat(logger): introduce structured json telemetry
 2026-11-19T21:01:57+07:00 - chore(release): bump internal patch milestone version
+2026-11-19T21:05:45+07:00 - fix(retry): implement exponential backoff jitter
