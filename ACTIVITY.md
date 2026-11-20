@@ -640,3 +640,4 @@ Continuous telemetry stream.
 2026-11-19T21:05:45+07:00 - fix(retry): implement exponential backoff jitter
 2026-11-19T21:40:56+07:00 - feat(config): support dynamic environment variable overrides
 2026-11-20T08:38:06+07:00 - chore(deps): refresh internal module hashes
+2026-11-20T08:44:46+07:00 - refactor(stream): decouple async buffer pipeline
