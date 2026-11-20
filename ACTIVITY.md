@@ -656,3 +656,4 @@ Continuous telemetry stream.
 2026-11-20T20:53:10+07:00 - fix(worker): prevent race condition during teardown
 2026-11-20T21:03:03+07:00 - feat(config): support dynamic environment variable overrides
 2026-11-20T21:03:18+07:00 - fix(worker): prevent race condition during teardown
+2026-11-20T21:13:54+07:00 - style(fmt): harmonize whitespace across records
