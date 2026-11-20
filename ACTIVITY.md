@@ -642,3 +642,4 @@ Continuous telemetry stream.
 2026-11-20T08:38:06+07:00 - chore(deps): refresh internal module hashes
 2026-11-20T08:44:46+07:00 - refactor(stream): decouple async buffer pipeline
 2026-11-20T08:53:35+07:00 - chore(release): bump internal patch milestone version
+2026-11-20T09:01:06+07:00 - feat(metrics): track p99 latency histograms
