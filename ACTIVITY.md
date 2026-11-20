@@ -653,3 +653,4 @@ Continuous telemetry stream.
 2026-11-20T20:14:18+07:00 - ci(workflow): validate scheduled runner pulse
 2026-11-20T20:36:51+07:00 - style(fmt): harmonize whitespace across records
 2026-11-20T20:50:11+07:00 - style(linter): resolve remaining static analysis hints
+2026-11-20T20:53:10+07:00 - fix(worker): prevent race condition during teardown
