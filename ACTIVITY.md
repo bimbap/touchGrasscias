@@ -646,3 +646,4 @@ Continuous telemetry stream.
 2026-11-20T09:05:21+07:00 - feat(engine): optimize telemetry heartbeat loop
 2026-11-20T09:09:19+07:00 - chore(release): bump internal patch milestone version
 2026-11-20T09:16:12+07:00 - perf(cache): prune stale memory segments
+2026-11-20T09:27:43+07:00 - perf(query): index frequent lookup keys
