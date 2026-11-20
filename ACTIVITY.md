@@ -659,3 +659,4 @@ Continuous telemetry stream.
 2026-11-20T21:13:54+07:00 - style(fmt): harmonize whitespace across records
 2026-11-20T21:14:18+07:00 - feat(logger): introduce structured json telemetry
 2026-11-20T21:19:05+07:00 - feat(metrics): track p99 latency histograms
+2026-11-20T21:21:07+07:00 - feat(metrics): track p99 latency histograms
