@@ -677,3 +677,4 @@ Continuous telemetry stream.
 2026-11-22T19:06:46+07:00 - docs(activity): update continuous deployment log
 2026-11-22T19:10:15+07:00 - feat(logger): introduce structured json telemetry
 2026-11-22T19:11:03+07:00 - refactor(stream): decouple async buffer pipeline
+2026-11-22T19:13:35+07:00 - fix(worker): prevent race condition during teardown
