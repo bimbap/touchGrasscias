@@ -666,3 +666,4 @@ Continuous telemetry stream.
 2026-11-21T20:14:12+07:00 - feat(config): support dynamic environment variable overrides
 2026-11-21T20:23:11+07:00 - perf(io): batch asynchronous filesystem writes
 2026-11-22T08:33:56+07:00 - refactor(stream): decouple async buffer pipeline
+2026-11-22T08:36:38+07:00 - feat(engine): optimize telemetry heartbeat loop
