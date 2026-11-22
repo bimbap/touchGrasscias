@@ -689,3 +689,4 @@ Continuous telemetry stream.
 2026-11-22T19:45:30+07:00 - refactor(stream): decouple async buffer pipeline
 2026-11-22T19:50:40+07:00 - chore(deps): refresh internal module hashes
 2026-11-22T19:51:43+07:00 - feat(config): support dynamic environment variable overrides
+2026-11-22T20:05:31+07:00 - perf(query): index frequent lookup keys
