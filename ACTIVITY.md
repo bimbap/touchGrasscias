@@ -691,3 +691,4 @@ Continuous telemetry stream.
 2026-11-22T19:51:43+07:00 - feat(config): support dynamic environment variable overrides
 2026-11-22T20:05:31+07:00 - perf(query): index frequent lookup keys
 2026-11-23T08:30:02+07:00 - ci(workflow): validate scheduled runner pulse
+2026-11-23T08:30:42+07:00 - feat(config): support dynamic environment variable overrides
