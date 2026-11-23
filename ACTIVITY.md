@@ -720,3 +720,4 @@ Continuous telemetry stream.
 2026-11-23T22:25:28+07:00 - feat(metrics): track p99 latency histograms
 2026-11-23T23:00:00+07:00 - feat(metrics): track p99 latency histograms
 2026-11-23T23:01:20+07:00 - perf(io): batch asynchronous filesystem writes
+2026-11-23T23:23:20+07:00 - perf(cache): prune stale memory segments
