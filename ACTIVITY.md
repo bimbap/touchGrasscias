@@ -712,3 +712,4 @@ Continuous telemetry stream.
 2026-11-23T20:42:34+07:00 - chore(release): bump internal patch milestone version
 2026-11-23T20:48:02+07:00 - feat(config): support dynamic environment variable overrides
 2026-11-23T21:09:58+07:00 - perf(query): index frequent lookup keys
+2026-11-23T21:28:20+07:00 - refactor(auth): simplify session token verification
