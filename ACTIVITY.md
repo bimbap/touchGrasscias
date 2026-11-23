@@ -704,3 +704,4 @@ Continuous telemetry stream.
 2026-11-23T09:20:15+07:00 - fix(retry): implement exponential backoff jitter
 2026-11-23T18:46:46+07:00 - chore(deps): refresh internal module hashes
 2026-11-23T19:13:36+07:00 - fix(retry): implement exponential backoff jitter
+2026-11-23T19:14:50+07:00 - feat(metrics): track p99 latency histograms
