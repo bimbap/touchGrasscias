@@ -707,3 +707,4 @@ Continuous telemetry stream.
 2026-11-23T19:14:50+07:00 - feat(metrics): track p99 latency histograms
 2026-11-23T19:28:12+07:00 - refactor(auth): simplify session token verification
 2026-11-23T19:33:34+07:00 - feat(config): support dynamic environment variable overrides
+2026-11-23T20:19:26+07:00 - feat(metrics): track p99 latency histograms
