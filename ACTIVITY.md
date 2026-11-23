@@ -697,3 +697,4 @@ Continuous telemetry stream.
 2026-11-23T08:45:06+07:00 - style(linter): resolve remaining static analysis hints
 2026-11-23T08:47:17+07:00 - feat(metrics): track p99 latency histograms
 2026-11-23T08:48:43+07:00 - perf(query): index frequent lookup keys
+2026-11-23T08:50:16+07:00 - feat(logger): introduce structured json telemetry
