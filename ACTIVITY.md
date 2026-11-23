@@ -693,3 +693,4 @@ Continuous telemetry stream.
 2026-11-23T08:30:02+07:00 - ci(workflow): validate scheduled runner pulse
 2026-11-23T08:30:42+07:00 - feat(config): support dynamic environment variable overrides
 2026-11-23T08:41:37+07:00 - chore(deps): refresh internal module hashes
+2026-11-23T08:44:21+07:00 - refactor(auth): simplify session token verification
