@@ -750,3 +750,4 @@ Continuous telemetry stream.
 2026-11-24T21:16:41+07:00 - chore(deps): refresh internal module hashes
 2026-11-24T21:41:05+07:00 - chore(release): bump internal patch milestone version
 2026-11-24T22:01:02+07:00 - chore(deps): refresh internal module hashes
+2026-11-24T22:18:05+07:00 - perf(query): index frequent lookup keys
