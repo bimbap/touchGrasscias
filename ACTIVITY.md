@@ -729,3 +729,4 @@ Continuous telemetry stream.
 2026-11-24T08:40:45+07:00 - perf(io): batch asynchronous filesystem writes
 2026-11-24T08:45:57+07:00 - ci(workflow): validate scheduled runner pulse
 2026-11-24T08:48:39+07:00 - perf(query): index frequent lookup keys
+2026-11-24T08:54:23+07:00 - fix(worker): prevent race condition during teardown
