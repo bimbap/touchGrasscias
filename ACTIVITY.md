@@ -724,3 +724,4 @@ Continuous telemetry stream.
 2026-11-23T23:34:23+07:00 - perf(cache): prune stale memory segments
 2026-11-23T23:35:22+07:00 - refactor(auth): simplify session token verification
 2026-11-23T23:42:32+07:00 - feat(metrics): track p99 latency histograms
+2026-11-24T08:35:28+07:00 - fix(retry): implement exponential backoff jitter
