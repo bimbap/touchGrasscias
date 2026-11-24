@@ -731,3 +731,4 @@ Continuous telemetry stream.
 2026-11-24T08:48:39+07:00 - perf(query): index frequent lookup keys
 2026-11-24T08:54:23+07:00 - fix(worker): prevent race condition during teardown
 2026-11-24T08:55:10+07:00 - refactor(auth): simplify session token verification
+2026-11-24T08:55:44+07:00 - feat(engine): optimize telemetry heartbeat loop
