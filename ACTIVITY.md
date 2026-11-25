@@ -764,3 +764,4 @@ Continuous telemetry stream.
 2026-11-25T20:28:13+07:00 - style(fmt): harmonize whitespace across records
 2026-11-25T20:40:04+07:00 - ci(workflow): validate scheduled runner pulse
 2026-11-25T20:45:48+07:00 - feat(config): support dynamic environment variable overrides
+2026-11-25T20:47:55+07:00 - fix(worker): prevent race condition during teardown
