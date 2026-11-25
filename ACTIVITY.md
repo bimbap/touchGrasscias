@@ -766,3 +766,4 @@ Continuous telemetry stream.
 2026-11-25T20:45:48+07:00 - feat(config): support dynamic environment variable overrides
 2026-11-25T20:47:55+07:00 - fix(worker): prevent race condition during teardown
 2026-11-25T20:48:51+07:00 - perf(io): batch asynchronous filesystem writes
+2026-11-25T20:56:57+07:00 - ci(workflow): validate scheduled runner pulse
