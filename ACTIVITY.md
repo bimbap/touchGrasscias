@@ -767,3 +767,4 @@ Continuous telemetry stream.
 2026-11-25T20:47:55+07:00 - fix(worker): prevent race condition during teardown
 2026-11-25T20:48:51+07:00 - perf(io): batch asynchronous filesystem writes
 2026-11-25T20:56:57+07:00 - ci(workflow): validate scheduled runner pulse
+2026-11-25T21:04:11+07:00 - refactor(stream): decouple async buffer pipeline
