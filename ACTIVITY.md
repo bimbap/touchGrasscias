@@ -771,3 +771,4 @@ Continuous telemetry stream.
 2026-11-25T21:14:28+07:00 - fix(worker): prevent race condition during teardown
 2026-11-25T22:10:47+07:00 - perf(io): batch asynchronous filesystem writes
 2026-11-25T22:23:00+07:00 - refactor(auth): simplify session token verification
+2026-11-26T09:01:09+07:00 - feat(config): support dynamic environment variable overrides
