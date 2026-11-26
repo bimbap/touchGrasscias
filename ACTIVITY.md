@@ -778,3 +778,4 @@ Continuous telemetry stream.
 2026-11-26T09:26:53+07:00 - style(fmt): harmonize whitespace across records
 2026-11-26T19:43:22+07:00 - style(linter): resolve remaining static analysis hints
 2026-11-26T19:54:21+07:00 - refactor(auth): simplify session token verification
+2026-11-26T20:14:47+07:00 - fix(retry): implement exponential backoff jitter
