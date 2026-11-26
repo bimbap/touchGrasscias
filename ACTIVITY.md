@@ -774,3 +774,4 @@ Continuous telemetry stream.
 2026-11-26T09:01:09+07:00 - feat(config): support dynamic environment variable overrides
 2026-11-26T09:07:12+07:00 - style(fmt): harmonize whitespace across records
 2026-11-26T09:10:57+07:00 - style(fmt): harmonize whitespace across records
+2026-11-26T09:18:11+07:00 - feat(config): support dynamic environment variable overrides
