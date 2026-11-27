@@ -794,3 +794,4 @@ Continuous telemetry stream.
 2026-11-27T18:53:08+07:00 - fix(worker): prevent race condition during teardown
 2026-11-27T19:06:11+07:00 - perf(query): index frequent lookup keys
 2026-11-27T19:40:44+07:00 - refactor(stream): decouple async buffer pipeline
+2026-11-27T19:51:56+07:00 - style(linter): resolve remaining static analysis hints
