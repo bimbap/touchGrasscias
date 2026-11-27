@@ -785,3 +785,4 @@ Continuous telemetry stream.
 2026-11-26T21:49:05+07:00 - feat(metrics): track p99 latency histograms
 2026-11-26T22:23:06+07:00 - chore(release): bump internal patch milestone version
 2026-11-27T08:32:19+07:00 - feat(metrics): track p99 latency histograms
+2026-11-27T08:51:20+07:00 - fix(worker): prevent race condition during teardown
