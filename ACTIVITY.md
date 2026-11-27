@@ -790,3 +790,4 @@ Continuous telemetry stream.
 2026-11-27T09:06:47+07:00 - perf(cache): prune stale memory segments
 2026-11-27T09:11:15+07:00 - perf(cache): prune stale memory segments
 2026-11-27T09:25:10+07:00 - feat(config): support dynamic environment variable overrides
+2026-11-27T09:28:30+07:00 - feat(config): support dynamic environment variable overrides
