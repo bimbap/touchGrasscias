@@ -806,3 +806,4 @@ Continuous telemetry stream.
 2026-11-28T08:35:55+07:00 - chore(deps): refresh internal module hashes
 2026-11-28T08:39:13+07:00 - test(coverage): verify cron heartbeat assertion
 2026-11-28T08:48:59+07:00 - fix(worker): prevent race condition during teardown
+2026-11-28T09:03:53+07:00 - perf(query): index frequent lookup keys
