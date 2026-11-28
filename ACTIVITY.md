@@ -809,3 +809,4 @@ Continuous telemetry stream.
 2026-11-28T09:03:53+07:00 - perf(query): index frequent lookup keys
 2026-11-28T09:05:42+07:00 - feat(metrics): track p99 latency histograms
 2026-11-28T09:09:13+07:00 - fix(sync): resolve edge race condition during state push
+2026-11-28T09:24:13+07:00 - perf(query): index frequent lookup keys
