@@ -825,3 +825,4 @@ Continuous telemetry stream.
 2026-11-28T21:08:13+07:00 - fix(sync): resolve edge race condition during state push
 2026-11-28T21:19:38+07:00 - test(coverage): verify cron heartbeat assertion
 2026-11-28T21:23:34+07:00 - chore(deps): refresh internal module hashes
+2026-11-28T21:32:04+07:00 - fix(worker): prevent race condition during teardown
